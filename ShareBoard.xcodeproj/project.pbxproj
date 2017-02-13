@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A066B7355D4A8A0D4580014 /* libPods-ShareBoard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD86661A4089692B402460 /* libPods-ShareBoard.a */; };
 		43085DBE1E51ACEE0099E354 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43085DBD1E51ACEE0099E354 /* main.m */; };
 		43085DC11E51ACEE0099E354 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43085DC01E51ACEE0099E354 /* AppDelegate.m */; };
 		43085DC41E51ACEE0099E354 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43085DC31E51ACEE0099E354 /* ViewController.m */; };
 		43085DC71E51ACEE0099E354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43085DC51E51ACEE0099E354 /* Main.storyboard */; };
 		43085DC91E51ACEE0099E354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43085DC81E51ACEE0099E354 /* Assets.xcassets */; };
 		43085DCC1E51ACEE0099E354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43085DCA1E51ACEE0099E354 /* LaunchScreen.storyboard */; };
+		437707DC1E51D136003EB57D /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 437707DB1E51D136003EB57D /* ShareView.m */; };
+		437707E21E51D13E003EB57D /* ImageWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 437707DF1E51D13E003EB57D /* ImageWithLabel.m */; };
+		437707E31E51D13E003EB57D /* ImageWithLabels.m in Sources */ = {isa = PBXBuildFile; fileRef = 437707E11E51D13E003EB57D /* ImageWithLabels.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,15 @@
 		43085DC81E51ACEE0099E354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43085DCB1E51ACEE0099E354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43085DCD1E51ACEE0099E354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437707DA1E51D136003EB57D /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
+		437707DB1E51D136003EB57D /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
+		437707DE1E51D13E003EB57D /* ImageWithLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageWithLabel.h; sourceTree = "<group>"; };
+		437707DF1E51D13E003EB57D /* ImageWithLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageWithLabel.m; sourceTree = "<group>"; };
+		437707E01E51D13E003EB57D /* ImageWithLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageWithLabels.h; sourceTree = "<group>"; };
+		437707E11E51D13E003EB57D /* ImageWithLabels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageWithLabels.m; sourceTree = "<group>"; };
+		A8444D4AB89961E65468F0BD /* Pods-ShareBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareBoard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareBoard/Pods-ShareBoard.debug.xcconfig"; sourceTree = "<group>"; };
+		CAEC69275CE30CB4B63DD82D /* Pods-ShareBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareBoard.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareBoard/Pods-ShareBoard.release.xcconfig"; sourceTree = "<group>"; };
+		D3CD86661A4089692B402460 /* libPods-ShareBoard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareBoard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A066B7355D4A8A0D4580014 /* libPods-ShareBoard.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +58,8 @@
 			children = (
 				43085DBB1E51ACEE0099E354 /* ShareBoard */,
 				43085DBA1E51ACEE0099E354 /* Products */,
+				E1CDD4EBA14E6C32BF97A25D /* Pods */,
+				DA723B1B0321EAE1BA8335B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +74,8 @@
 		43085DBB1E51ACEE0099E354 /* ShareBoard */ = {
 			isa = PBXGroup;
 			children = (
+				437707DD1E51D13E003EB57D /* ImageWithLabel */,
+				437707D91E51D136003EB57D /* ShareView */,
 				43085DBF1E51ACEE0099E354 /* AppDelegate.h */,
 				43085DC01E51ACEE0099E354 /* AppDelegate.m */,
 				43085DC21E51ACEE0099E354 /* ViewController.h */,
@@ -79,6 +97,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		437707D91E51D136003EB57D /* ShareView */ = {
+			isa = PBXGroup;
+			children = (
+				437707DA1E51D136003EB57D /* ShareView.h */,
+				437707DB1E51D136003EB57D /* ShareView.m */,
+			);
+			path = ShareView;
+			sourceTree = "<group>";
+		};
+		437707DD1E51D13E003EB57D /* ImageWithLabel */ = {
+			isa = PBXGroup;
+			children = (
+				437707DE1E51D13E003EB57D /* ImageWithLabel.h */,
+				437707DF1E51D13E003EB57D /* ImageWithLabel.m */,
+				437707E01E51D13E003EB57D /* ImageWithLabels.h */,
+				437707E11E51D13E003EB57D /* ImageWithLabels.m */,
+			);
+			path = ImageWithLabel;
+			sourceTree = "<group>";
+		};
+		DA723B1B0321EAE1BA8335B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3CD86661A4089692B402460 /* libPods-ShareBoard.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1CDD4EBA14E6C32BF97A25D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8444D4AB89961E65468F0BD /* Pods-ShareBoard.debug.xcconfig */,
+				CAEC69275CE30CB4B63DD82D /* Pods-ShareBoard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43085DD01E51ACEE0099E354 /* Build configuration list for PBXNativeTarget "ShareBoard" */;
 			buildPhases = (
+				4FF57062CCD16F8D4D37BF09 /* [CP] Check Pods Manifest.lock */,
 				43085DB51E51ACEE0099E354 /* Sources */,
 				43085DB61E51ACEE0099E354 /* Frameworks */,
 				43085DB71E51ACEE0099E354 /* Resources */,
+				C1E4388FC9519BDEA90D3F8A /* [CP] Embed Pods Frameworks */,
+				F000BD93579FDA805CC62025 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,14 +203,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FF57062CCD16F8D4D37BF09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1E4388FC9519BDEA90D3F8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareBoard/Pods-ShareBoard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F000BD93579FDA805CC62025 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareBoard/Pods-ShareBoard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43085DB51E51ACEE0099E354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				437707DC1E51D136003EB57D /* ShareView.m in Sources */,
 				43085DC41E51ACEE0099E354 /* ViewController.m in Sources */,
 				43085DC11E51ACEE0099E354 /* AppDelegate.m in Sources */,
 				43085DBE1E51ACEE0099E354 /* main.m in Sources */,
+				437707E31E51D13E003EB57D /* ImageWithLabels.m in Sources */,
+				437707E21E51D13E003EB57D /* ImageWithLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +377,7 @@
 		};
 		43085DD11E51ACEE0099E354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8444D4AB89961E65468F0BD /* Pods-ShareBoard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShareBoard/Info.plist;
@@ -279,6 +389,7 @@
 		};
 		43085DD21E51ACEE0099E354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAEC69275CE30CB4B63DD82D /* Pods-ShareBoard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShareBoard/Info.plist;
@@ -307,6 +418,7 @@
 				43085DD21E51ACEE0099E354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
