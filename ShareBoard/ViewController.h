@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSInteger, ShareType) {
+	ShareTypeWechatSession,
+	ShareTypeWechatTimeLine,
+	ShareTypeQQ,
+	ShareTypeQZone,
+	ShareTypeSina
+};
+
 @interface ViewController : UIViewController
 
 
